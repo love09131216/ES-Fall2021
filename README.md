@@ -2,3 +2,4 @@
 
 ##嵌入式系統 – 課程公告與說明
 
+https://img.techentice.com/media/2019/10/embedded.jpg
