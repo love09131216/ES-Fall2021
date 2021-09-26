@@ -3,7 +3,7 @@
 ###Lab 3-1: Ultrasonic Sensor (3-pin) + 測距 (以公分顯示即可) + RS232 Output,
 ![image](https://user-images.githubusercontent.com/89329170/134792726-b6587289-6ed6-459f-9bf3-692563009ede.png)
 
-''''c
+````c
 int inches = 0;
 
 int cm = 0;
@@ -40,4 +40,4 @@ void loop()
   Serial.println("cm");
   delay(100); // Wait for 100 millisecond(s)
 }
-''''
+````
