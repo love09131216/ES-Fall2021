@@ -123,8 +123,8 @@ void loop()
  Lab 3-3, Embedded System, VNU
  Date: 2021/09/26
 */
-int RLED = 13;
-int GLED = 11;
+int BLED = 13;
+int RLED = 11;
 
 
 int result, result2, result3;
@@ -132,8 +132,8 @@ String d0 = "****** 9X9 Table ******";
 String d1, d2, d3;
 void setup()
 {
-  pinMode(RLED, OUTPUT);   // Configure PIN13
-  pinMode(GLED, OUTPUT);   // Configure PIN11
+  pinMode(BLED, OUTPUT);   // Configure PIN13
+  pinMode(RLED, OUTPUT);   // Configure PIN11
   
   Serial.begin(9600);
 
@@ -145,8 +145,8 @@ void loop()
 
   Serial.println(d0); 
   
-  digitalWrite(RLED, HIGH);
-  analogWrite(GLED, aa); 
+  digitalWrite(BLED, HIGH);
+  analogWrite(RLED, aa); 
   
   for (int i=1;i<=9; i=i+3){
     for (int j=1;j<=9; j++){
@@ -167,13 +167,14 @@ void loop()
       
       delay(100);
     } // loop j
-    analogWrite(GLED, aa*3); 
+    analogWrite(RLED, aa*3); 
     Serial.println("");
   } // loop i
 
-  digitalWrite(RLED, LOW);
-  analogWrite(GLED, 255); 
+  digitalWrite(BLED, LOW);
+  analogWrite(RLED, 255); 
   delay(2000);	
-  analogWrite(GLED, 0);
+  analogWrite(RLED, 0);
 }
+
 ````
