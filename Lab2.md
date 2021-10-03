@@ -1,6 +1,6 @@
 #嵌入式系統 - 實作2: 會呼吸的RGB LED,  按鍵控制, 狀態輸出 
 
-###B1 實作2-1, analogWrite(): 並且觀查LED亮度變化是否有像"呼吸的效果"和示波器的波形有什麼關連性? (互動1), (2021-09-05)
+##B1 實作2-1, analogWrite(): 並且觀查LED亮度變化是否有像"呼吸的效果"和示波器的波形有什麼關連性? (互動1), (2021-09-05)
 
 ![image](https://user-images.githubusercontent.com/89329170/132114885-9917374a-3357-4c40-b167-9e7407ec8bfe.png)
 ````c
@@ -39,7 +39,7 @@ void loop()
 ````
 
 
-###實作2-2, RGB LED燈全彩模組, 分別讓LED輪流表現正紅、正綠、正藍，三個顏色，時間間隔1秒鐘。並且觀查LED顏色和波形或是電壓有什麼關連性? 可將個人說明在更新GitHub時一起加入. (互動2), (2021-09-05)
+##實作2-2, RGB LED燈全彩模組, 分別讓LED輪流表現正紅、正綠、正藍，三個顏色，時間間隔1秒鐘。並且觀查LED顏色和波形或是電壓有什麼關連性? 可將個人說明在更新GitHub時一起加入. (互動2), (2021-09-05)
 ![image](https://user-images.githubusercontent.com/89329170/132971069-9c453c0e-935e-44c5-be6b-f8148e0eb95d.png)
 
 ````c
@@ -73,7 +73,7 @@ void loop()
 
 
 
-###實作2-3, 讓你的RGB LED燈全彩模組也可會"呼吸", LED顏色變化是否有像"呼吸的效果"和示波器的波形有什麼關連性? (互動3), (2021-09-12)
+##實作2-3, 讓你的RGB LED燈全彩模組也可會"呼吸", LED顏色變化是否有像"呼吸的效果"和示波器的波形有什麼關連性? (互動3), (2021-09-12)
 ![image](https://user-images.githubusercontent.com/89329170/132971571-6cbbebff-e9e1-4e08-9d0c-1fefcaa194a0.png)
 ````c
 // C++ code
@@ -131,7 +131,7 @@ void loop()
 
 
 
-###實作2-4 analogRead(), 1024解析度 (i.e.,10-bit): 可變電阻 + 序列監視器與輸出; 當你改變可變電阻的阻值(e.g., 10K-ohm)時，序列監視器輸出的數值有什麼改變? 數值又有什麼意義呢? 可試將你的想法寫在你的GitHub Page中喔! (互動4) (2021-09-12)
+##實作2-4 analogRead(), 1024解析度 (i.e.,10-bit): 可變電阻 + 序列監視器與輸出; 當你改變可變電阻的阻值(e.g., 10K-ohm)時，序列監視器輸出的數值有什麼改變? 數值又有什麼意義呢? 可試將你的想法寫在你的GitHub Page中喔! (互動4) (2021-09-12)
 ![image](https://user-images.githubusercontent.com/89329170/132971855-cc8f0a4d-4f42-426b-ac65-744535afd5aa.png)
 ````c
 int sensorValue = 0;
@@ -155,7 +155,7 @@ void loop()
 
 
 
-###B5 實作2-5: 按下按鍵, Green LED亮 & Red LED滅; 放開按鍵, Green LED滅 & Red LED亮. 想要再深入的同學可以試試喔. (思考方向: digitalRead(), digitalWrite(): 按鍵 +序列輸出 + LED), (互動5) (2021-09-19) 
+##B5 實作2-5: 按下按鍵, Green LED亮 & Red LED滅; 放開按鍵, Green LED滅 & Red LED亮. 想要再深入的同學可以試試喔. (思考方向: digitalRead(), digitalWrite(): 按鍵 +序列輸出 + LED), (互動5) (2021-09-19) 
 
 ![image](https://user-images.githubusercontent.com/89329170/134792417-439c63eb-c0d8-49a3-bbb7-3c2de9326c60.png)
 ````c
