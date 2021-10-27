@@ -31,3 +31,13 @@ seg71(0, 0, 0, 0, 0, 0, 0, 0); // OFF
 seg71(1, 1, 1, 1, 1, 1, 1, 1); // 8
 }
 ````
+
+
+###  4-2 如下圖的Demo, 用七段顯示器, 顯示 . →1→ ... → 9 → 0 → 全滅, 狀態改變的間隔時間為0.5秒**
+![image](https://user-images.githubusercontent.com/89329170/139077748-bf020476-f197-4c6f-883c-3895afed67c6.png)
+
+
+
+
+
+### ### Lab 4-3 LCD顯示"Hello" + 你的英文名字 (e.g., "Hello Horace")
