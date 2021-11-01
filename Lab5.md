@@ -1,7 +1,8 @@
 #  嵌入式系統 - 實作5: Servo伺服馬達, 溫度感應器 + LCD 顯示器
 ### Lab 5-1 請使用兩個伺服馬達同步從 0 度逐步掃描到 180 度之後再逐步掃描回0度, 每步的間隔時間為50ms (0.05秒)
  
- 
+ ![image](https://user-images.githubusercontent.com/89329170/139670588-e00760f6-2aa3-48a7-92a8-ec49558dc6f2.png)
+
  ````c
  // Developed for Embedded Sytem, VNU, Fall 2021
 
@@ -42,7 +43,8 @@ void loop()
   
  ### Lab 5-2 LCD顯示溫度感應器的溫度;若溫度<38 綠LED亮; 若大於38度, 紅色LED亮
  
- 
+ ![image](https://user-images.githubusercontent.com/89329170/139671336-55807358-6f87-4084-86b3-06ba4c3dc337.png)
+
 ````c 
  // For Embedded System course, VNU, Fall 2021 
 
