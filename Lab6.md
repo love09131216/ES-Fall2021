@@ -64,7 +64,7 @@ void loop(){
 
 
 ### Lab 6-2 分享一個你最喜歡或是最有成就感的實作 (電路即可)到你的GitHub, 範列如下
-
+![image](https://user-images.githubusercontent.com/89329170/139667665-6d18c9cd-be81-431e-8338-2469accb132a.png)
 
 
 
