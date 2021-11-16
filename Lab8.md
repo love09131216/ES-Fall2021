@@ -6,7 +6,9 @@
 
 
 
-
+### Lab 8-1 零基礎Python快速入門與實作, 1/2, W13
+### 實作1175a + Final Result
+![image](https://user-images.githubusercontent.com/89329170/141985473-91c458cc-a184-491e-bb5a-4cbb8bb2b02e.png)
 
 
 
