@@ -5,7 +5,7 @@
 
 
 ### Lab 7-2 暖身: 一起來十分鐘學會Python
-````cccc
+````ccc
 # task 1: string variable
 name = "Joanna"
 print(name)
