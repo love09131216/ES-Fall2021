@@ -7,7 +7,7 @@
 ### Lab 7-2 暖身: 一起來十分鐘學會Python
 ````cccc
 # task 1: string variable
-name = "TA Grace"
+name = "Joanna"
 print(name)
 
 # task 2: number variable
@@ -23,7 +23,7 @@ print(number - number)
 def printName(firstName, lastName):
   print(lastName + ' ' + firstName)
 
-printName('Grace', 'TA')
+printName('Joanna')
 
 # task 4: if else
 
@@ -34,8 +34,8 @@ def printName(firstName, lastName, isCool):
     print(lastName + ' ' + firstName + ' not cool!')
 
 # Start
-printName('Grace', 'TA', True)
-printName('Grace', 'TA', False)
+printName('Joanna',  True)
+printName('Joanna',  False)
 
 # task 5: for loop
 
@@ -47,7 +47,7 @@ def printName(firstName, lastName, isCool, num):
       print(i, lastName + ' ' + firstName + ' not cool!')
 
 # Start
-printName('Grace', 'TA', True, 10)
+printName('Joanna',  True, 10)
 
 cccc
 
