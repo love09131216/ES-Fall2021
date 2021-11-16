@@ -5,7 +5,7 @@
 
 
 ### Lab 7-2 暖身: 一起來十分鐘學會Python
-````ccc
+````c
 # task 1: string variable
 name = "Joanna"
 print(name)
@@ -49,7 +49,7 @@ def printName(firstName, lastName, isCool, num):
 # Start
 printName('Joanna',  True, 10)
 
-cccc
+````
 
 
 
