@@ -55,4 +55,5 @@ printName('Joanna',  True, 10)
 
 
 ### Lab 7-3 確認Lab7完成的兩個Notebook都成功的存在你的雲端硬碟/ES2021目錄下.
-![image](https://user-images.githubusercontent.com/89329170/141666277-fd845e46-155f-4f39-9bce-3a85837724f7.png)
+![image](https://user-images.githubusercontent.com/89329170/141981453-173f1975-7285-4701-b76f-28b7861a5b42.png)
+
