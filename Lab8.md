@@ -13,8 +13,9 @@
 
 
 
-
-
+### Lab 8-2 零基礎Python快速入門與實作, 2/2, W14
+### 實作1185 + Final Result
+![image](https://user-images.githubusercontent.com/89329170/142749222-a9593c98-db2d-43a8-9882-a72fa89935ea.png)
 
 
 
